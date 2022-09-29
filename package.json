@@ -1,11 +1,14 @@
 {
-  "name": "practice-13",
-  "privete": true,
-  "scripts": {
-    "serve-cli": "live-server",
-    "serve-node": "node server.js"
-  },
-  "devDependencies": {
-    "live-server": "^1.1.0"
-  }
+	"name": "practice-13",
+	"private": true,
+	"scripts": {
+		"div": "node server.js",
+		"format-code-check": "prattier --check --write ./public",
+		"format-code-css": "prettier --check --write ./public/styles/**",
+		"format-code-html": "prettier --check --write ./public/index.html"
+	},
+	"devDependencies": {
+		"live-server": "^1.1.0",
+		"prettier": "^2.7.1"
+	}
 }
