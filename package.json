@@ -5,10 +5,14 @@
 		"div": "node server.js",
 		"format-code-check": "prattier --check --write ./public",
 		"format-code-css": "prettier --check --write ./public/styles/**",
-		"format-code-html": "prettier --check --write ./public/index.html"
+		"format-code-html": "prettier --check --write ./public/index.html",
+		"lint-styles": "stylelint public/styles/*.css --fix"
 	},
 	"devDependencies": {
 		"live-server": "^1.1.0",
-		"prettier": "^2.7.1"
+		"prettier": "^2.7.1",
+		"stylelint": "^14.13.0",
+		"stylelint-config-prettier": "^9.0.3",
+		"stylelint-config-standard": "^28.0.0"
 	}
 }

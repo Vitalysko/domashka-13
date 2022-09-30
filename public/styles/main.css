@@ -13,7 +13,7 @@
 
 
 
-/*COMMON*/
+/* COMMON */
 
 html{
     font-family:Arial, Helvetica, sans-serif;
@@ -34,7 +34,7 @@ body{
     margin-bottom:102;
 }
 
-/*NEWS-HEADER*/
+/* NEWS-HEADER */
 
 .news-header{
    margin-bottom:50px; 
@@ -52,7 +52,7 @@ body{
   color:#959CAD;
 }
 
-/*news-content*/
+/* news-content */
 
 .news-content figure{
   margin: 50px 0;
