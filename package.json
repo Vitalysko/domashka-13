@@ -2,12 +2,11 @@
 	"name": "practice-13",
 	"private": true,
 	"scripts": {
-		"div": "node server.js",
-		"format-code-check": "prattier --check --write /public",
-		"format-code-css": "prettier --check --write /public/styles/**",
-		"format-code-html": "prettier --check --write /public/index.html",
-		"lint-styles": "stylelint /public/styles/*.css --fix",
-		"lint-scripts": "eslint /public/scripts/* --fix"
+		"dev": "node server.js",
+    "check-all": "npm run format-code && npm run lint-styles && npm run lint-scripts",
+		"format-code": "prettier --check --write \"public/**\"",
+		"lint-styles": "stylelint \"public/styles/*.css\" --fix",
+		"lint-scripts": "eslint \"public/scripts/*.js\" --fix"
 	},
 	"devDependencies": {
 		"eslint": "^8.24.0",

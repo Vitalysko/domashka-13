@@ -11,94 +11,92 @@
   gap-bottom: 102px;
 */
 
-
-
 /* COMMON */
 
-html{
-    font-family:Arial, Helvetica, sans-serif;
-} 
-
-body{
-     margin:0; 
+html {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-     width:1138px;
-     margin-left:auto;
-     margin-right:auto;
+body {
+	margin: 0;
 }
 
-.news-page-block{
-    margin-top: 41px;
-    margin-bottom:102;
+.container {
+	width: 1138px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.news-page-block {
+	margin-top: 41px;
+	margin-bottom: 102;
 }
 
 /* NEWS-HEADER */
 
-.news-header{
-   margin-bottom:50px; 
+.news-header {
+	margin-bottom: 50px;
 }
 
-.news-header h1{
-  margin-bottom:44px;
-  font-size: 36px;
-  line-height:48px;
+.news-header h1 {
+	margin-bottom: 44px;
+	font-size: 36px;
+	line-height: 48px;
 }
 
-.news-header time{
-  font-size: 12px;
-  line-height: 16px;
-  color:#959CAD;
+.news-header time {
+	font-size: 12px;
+	line-height: 16px;
+	color: #959cad;
 }
 
 /* news-content */
 
-.news-content figure{
-  margin: 50px 0;
+.news-content figure {
+	margin: 50px 0;
 }
 
 .news-content h2,
-.news-content .accent-text{
-  font-weight:700;
-  font-size: 24px;
-line-height: 30px;
-margin:40px 0;
-color:#000;
+.news-content .accent-text {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	margin: 40px 0;
+	color: #000;
 }
 
-.news-content p{
-  font-size: 15px;
-  line-height: 20px;
-  color:#7D7E80;
-  margin:20px 0;
+.news-content p {
+	font-size: 15px;
+	line-height: 20px;
+	color: #7d7e80;
+	margin: 20px 0;
 }
 
-.news-content li{
-  padding:20px 0;
-  margin:0;
+.news-content li {
+	padding: 20px 0;
+	margin: 0;
 }
 
-.news-content ol{
-  margin:40px 0;
-  padding-left:15px;
-  color:#7D7E80;
-  font-size:15px;
-  line-height:20px;
+.news-content ol {
+	margin: 40px 0;
+	padding-left: 15px;
+	color: #7d7e80;
+	font-size: 15px;
+	line-height: 20px;
 }
 
-.news-content ul{
-  color:#7D7E80;
-  font-size:15px;
-  line-height:20px;
-  margin:40px 0;
+.news-content ul {
+	color: #7d7e80;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 40px 0;
 }
 
-.news-content blockquote{
-font-size: 22px;
-line-height: 32px;
-font-style: italic;
-font-weight: 400;
-color:#000;
-margin:40px 0;
+.news-content blockquote {
+	font-size: 22px;
+	line-height: 32px;
+	font-style: italic;
+	font-weight: 400;
+	color: #000;
+	margin: 40px 0;
 }
