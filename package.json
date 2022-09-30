@@ -3,12 +3,19 @@
 	"private": true,
 	"scripts": {
 		"div": "node server.js",
-		"format-code-check": "prattier --check --write ./public",
-		"format-code-css": "prettier --check --write ./public/styles/**",
-		"format-code-html": "prettier --check --write ./public/index.html",
-		"lint-styles": "stylelint public/styles/*.css --fix"
+		"format-code-check": "prattier --check --write /public",
+		"format-code-css": "prettier --check --write /public/styles/**",
+		"format-code-html": "prettier --check --write /public/index.html",
+		"lint-styles": "stylelint /public/styles/*.css --fix",
+		"lint-scripts": "eslint /public/scripts/* --fix"
 	},
 	"devDependencies": {
+		"eslint": "^8.24.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.3.0",
+		"eslint-plugin-promise": "^6.0.1",
 		"live-server": "^1.1.0",
 		"prettier": "^2.7.1",
 		"stylelint": "^14.13.0",
